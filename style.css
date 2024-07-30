@@ -1,0 +1,91 @@
+* {
+    margin: 0%;
+}
+                    /* -------- NEW FONT ----------*/
+@font-face {
+    font-family: Urbanist;                 /* Name */
+    src: url(./assets/fonts/Urbanist/static/Urbanist-Black.ttf);        /* Source */
+}
+
+body {
+    background-color: rgba(202, 189, 171, 0.63);
+    color: rgba(20, 20, 20, 0.726);
+}
+
+                /*   ---- Header ----*/
+header {
+    width: 100vw;
+    height: 10vh;
+    font-family: Urbanist;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 6px;
+    background-color: rgba(31, 30, 30, 0.815);
+    color: white;
+
+    #main-heading {
+        font-size: 4em;
+    }
+    #main-links {
+        width: 20vw;
+        font-size: 3em;
+        display: flex;
+        flex-flow: row;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+    a {
+        width: 5vw;
+        height: 3vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        background-color: rgba(158, 155, 155, 0.61);
+    }
+    a:hover {
+        background-color: rgba(223, 207, 207, 0.555);
+        backdrop-filter: blur(10);
+    }
+
+}
+            /*  ---- Navbar -----   */
+nav {
+    background-color: rgba(158, 155, 155, 0.61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#navbar {
+    width: 50vw;
+    
+}
+nav div ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around; 
+   
+}
+nav div li {
+    width: 5vw;
+}
+nav div ul a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+#navbar ul li  {
+    width: 6vw;
+    text-align: center;
+}
+#navbar ul li:hover {
+    background-color: rgba(114, 113, 113, 0.623);
+    backdrop-filter: blur(10);
+} 
+
+
